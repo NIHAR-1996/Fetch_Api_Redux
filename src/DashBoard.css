@@ -1,0 +1,96 @@
+.html,body{
+    
+    margin:0;
+    background: whitesmoke;
+    padding: 0;
+    height: fit-content;
+
+}
+.main-container{
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(56, 49, 58, 0) 0%, rgba(0, 102, 255, 0.45) 100%);
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /* height: 100vh; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    /* border: 2px solid black; */
+    flex: 1;
+    background: #0066FF;
+    
+
+}
+.sidebar-heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border:2px solid  rgba(105,105, 105, 0.5); */
+    width: 100%;
+
+    
+}
+.sidebar-heading div{
+    padding: 10px;
+    color: azure;
+}
+
+.sidebar-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px ;
+    border-radius: 0.5rem;
+    width: 100%;
+    
+    /* width: 100vh; */
+    /* height: 30%; */
+
+}
+.sidebar-elements:hover{
+    background: rgba(128, 128, 232, 0.605);
+
+}
+.sidebar-elements div{
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 1rem;
+    color: azure;
+   
+}
+
+.main-content{
+    overflow: hidden;
+    flex: 4;
+   
+    
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+
+}
+.button{
+    height: 2.5rem;
+    margin-top: 5px;
+}
+
+.link-text{
+    color: azure;
+    text-decoration: none;
+}
+.log-text{
+    font-size: 100%;
+}

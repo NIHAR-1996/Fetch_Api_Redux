@@ -1,0 +1,42 @@
+
+
+.userContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+    position: relative;
+   
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: #B2D1FF;
+     /* border: 0.2px solid #0066FF; */
+     border-radius: 2px;
+     color: rgb(8, 20, 30);
+     height: 25vh;
+     font-weight: 600;
+     font-size: medium;
+     border-radius: 0.5rem;
+     width: 80vh;
+     margin: 0 auto;
+     /* position: absolute; */
+     top: 30%;
+
+}
+
+.content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+.content div p{
+    padding: 10px;
+    margin: 5px;
+}

@@ -1,0 +1,14 @@
+.album-container{
+    overflow-y: auto;
+    padding: 10px;
+    
+}
+.grid-album{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card-div{
+    background: #B2D1FF;
+    border-radius: 0.5rem;
+}
